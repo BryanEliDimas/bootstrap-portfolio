@@ -2,14 +2,16 @@
 <head>
     <title>Bryan Dimas | Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,700' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- LINK DIFFERENT STYLESHEET <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="small-device.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <div class="background">
-    <div class="container">
+  <div class="jumbotron">
+    <div class="container-fluid">
       <div class="row">
         <div class="twelve columns">
           <div class="six columns banner u-pull-right">
@@ -20,65 +22,75 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="twelve columns skills">
-          <h1>Skills</h1>
-          <p class="u-pull-left">
-            <img src="img/files/ror.png" /> Ruby on Rails
-          </p>
-          <p class="u-pull-right">
-            Javascript <img src="img/files/js.png" />
-          </p>
-          <p class="u-pull-left">
-            <img src="img/files/webs.png" /> HTML &amp; CSS
-          </p>
-          <p class="u-pull-right">
-            Git <img src="img/files/git.png" />
-          </p>
-        </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Who I am</h1>
+        <p>
+          Curiosity coupled with intelligence led me down the software development path.
+          Strength of character and ambition have kept me going. The Iron Yard Academy
+          has propelled me to a whole new level.
+        </p>
       </div>
-      <div class="row">
-        <div class="twelve columns">
-          <h1>Who I am</h1>
+    </div>
+    <div class="row skills">
+      <div class="col-xs-12">
+        <h1>Skills</h1>
+      </div>
+    </div>
+    <div class="col-xs-12 pull-left skills">
+      <img src="img/files/ror.png" /> Ruby on Rails
+    </div>
+    <div class="col-xs-12 skills">
+      <span class="pull-right">Javascript <img src="img/files/js.png" /></span>
+    </div>
+    <div class="col-xs-12 pull-left skills">
+      <img src="img/files/webs.png" /> HTML &amp; CSS
+    </div>
+    <div class="col-xs-12 pull-right skills">
+      <span class="pull-right">Git <img src="img/files/git.png" /></span>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Projects</h1>
+        <p>
+          My projects are a collection that I developed during my time at The Iron Yard.
+          The skills and my level of mastery increase as time progresses.
+        </p>
+      </div>
+      <div class="col-xs-12">
+        <img class="img-responsive" src="https://static.pexels.com/photos/45/coffee-apple-iphone-desk-large.jpg" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Resume</h1>
+        <h4>Profile</h4>
           <p>
-            Curiosity coupled with intelligence led me down the software development path.
-            Strength of character and ambition have kept me going. The Iron Yard Academy
-            has propelled me to a whole new level. I am ready for the next one.
+            Web developer obsessed with creating web applications that provide real value.
+
           </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="twelve columns">
-          <h1>Projects</h1>
+        <h4>Education</h4>
+          <p>Lonestar College System, (AA) Computer Science <br>
+            In an ideal world this website wouldnt exist, a client would acknowledge the importance of having web copy before the design starts. Needless to say its very important, content is king and people are beginning to understand that. However, back over in reality some project schedules and budgets dont allow for web copy to be written before the design phase, this is sad but true.
+          </p>
           <p>
-            Curiosity coupled with intelligence led me down the software development path.
-            Strength of character and ambition have kept me going. The Iron Yard Academy
-            has propelled me to a whole new level. I am ready for the next one.
+            Langham Creek High School
           </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="twelve columns">
-          <h1>Resume</h1>
-          <h4>Profile</h4>
-            <p>
+        <h4>Experience</h4>
+          <p>
+            In an ideal world this website wouldnt exist, a client would acknowledge the importance of having web copy before the design starts. Needless to say its very important, content is king and people are beginning to understand that. However, back over in reality some project schedules and budgets dont allow for web copy to be written before the design phase, this is sad but true.
+          </p>
+        <h4>References</h4>
+          <p>
 
-            </p>
-          <h4>Education</h4>
-            <p>
-
-            </p>
-          <h4>Experience</h4>
-            <p>
-
-            </p>
-          <h4>References</h4>
-            <p>
-              
-            </p>
-        </div>
+          </p>
       </div>
     </div>
   </div>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
