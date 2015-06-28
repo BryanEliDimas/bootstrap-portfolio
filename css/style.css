@@ -54,7 +54,7 @@ h1 {
 
   body {
     font-family: 'Raleway', sans-serif;
-    background-image: url('../img/bg2.png');
+    /*background-image: url('../img/bg2.png');*/
     background-size: cover;
     height: 70%;
     background-repeat: no-repeat;
@@ -62,13 +62,19 @@ h1 {
   }
 
   .banner {
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: right;
+  }
+
+  .jumbotron {
+    background: url('../img/bg3.png') no-repeat center;
+    /*background-size: cover;*/
   }
 
   #name {
     font-weight: 500;
     font-size: 5.5rem;
+    text-align: right;
   }
 
 }
